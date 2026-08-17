@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "result": "passed",
+  "files_scanned": 30,
+  "workflows": {
+    "cloud_authentication_present": false,
+    "write_workflows_present": false,
+    "manual_dispatch_present": false
+  },
+  "artifact": {
+    "apply_automation_present": false,
+    "destroy_automation_present": false,
+    "drift_or_rollback_automation_present": false,
+    "reusable_modules_present": false,
+    "request_engine_present": false,
+    "policy_engine_present": false,
+    "cloud_bootstrap_or_trust_present": false,
+    "terraform_runtime_artifacts_present": false,
+    "private_source_identifier_present": false
+  }
+}

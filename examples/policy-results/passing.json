@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "scenario": "required controls satisfied",
+  "expected": "allow",
+  "result": "passed",
+  "violations": []
+}

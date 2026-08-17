@@ -1,0 +1,9 @@
+name: warehouse-demo
+cloud: gcp
+owner: platform@example.com
+cost_center: CC-1000
+data_classification: internal
+environment: demo
+region: us-central1
+additional_tags:
+  application: warehouse

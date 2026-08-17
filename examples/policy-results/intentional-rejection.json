@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "scenario": "required business tags missing",
+  "expected": "reject",
+  "result": "passed",
+  "violations": [
+    {
+      "cloud": "aws",
+      "reason": "plan has storage but no delivery integration with a concrete log destination",
+      "resource_address": "aws_s3_bucket.workload",
+      "rule_id": "logging.mandatory_log_destination"
+    },
+    {
+      "cloud": "aws",
+      "reason": "required tag \"cost_center\" is missing",
+      "resource_address": "aws_s3_bucket.workload",
+      "rule_id": "tagging.required_tags"
+    },
+    {
+      "cloud": "aws",
+      "reason": "required tag \"data_classification\" is missing",
+      "resource_address": "aws_s3_bucket.workload",
+      "rule_id": "tagging.required_tags"
+    },
+    {
+      "cloud": "aws",
+      "reason": "required tag \"owner\" is missing",
+      "resource_address": "aws_s3_bucket.workload",
+      "rule_id": "tagging.required_tags"
+    },
+    {
+      "cloud": "aws",
+      "reason": "storage does not have the required encryption-at-rest configuration",
+      "resource_address": "aws_s3_bucket.workload",
+      "rule_id": "encryption.encryption_at_rest"
+    },
+    {
+      "cloud": "aws",
+      "reason": "storage permits public or unrestricted network access",
+      "resource_address": "aws_s3_bucket.workload",
+      "rule_id": "public_access.no_public_buckets"
+    }
+  ]
+}

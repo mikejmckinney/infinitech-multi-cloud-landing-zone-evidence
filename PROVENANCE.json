@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "release": "0.1.0",
+  "profile": "public-reference-evidence",
+  "source": {
+    "product": "Infinitech Multi-Cloud Landing Zone",
+    "repository_visibility": "private",
+    "product_commit": "4266b0b9d9e8bc28796d494d9a6ad4060e0c48fa"
+  },
+  "builder_sha256": "2ce210593cbd47f85f0d81a8e7535eb63dc4f2976c9839d696fc2cdf27bf67b8",
+  "publication_boundary": "ADR-015",
+  "implementation_included": false,
+  "generated_outputs_complete": true
+}

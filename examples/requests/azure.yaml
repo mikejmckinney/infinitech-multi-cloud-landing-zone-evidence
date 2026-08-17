@@ -1,0 +1,11 @@
+name: analytics-demo
+cloud: azure
+owner: platform@example.com
+cost_center: CC-1000
+data_classification: confidential
+environment: demo
+region: eastus
+parent:
+  azure_mgmt_group_id: /providers/Microsoft.Management/managementGroups/demo
+additional_tags:
+  application: analytics

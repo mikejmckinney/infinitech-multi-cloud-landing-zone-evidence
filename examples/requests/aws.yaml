@@ -1,0 +1,11 @@
+name: payments-demo
+cloud: aws
+owner: platform@example.com
+cost_center: CC-1000
+data_classification: internal
+environment: demo
+region: us-east-1
+parent:
+  aws_ou_path: Workloads/Demo
+additional_tags:
+  application: payments

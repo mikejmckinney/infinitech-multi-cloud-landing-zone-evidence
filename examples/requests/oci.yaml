@@ -1,0 +1,11 @@
+name: research-demo
+cloud: oci
+owner: platform@example.com
+cost_center: CC-1000
+data_classification: restricted
+environment: demo
+region: us-phoenix-1
+parent:
+  oci_parent_compartment_id: ocid1.compartment.oc1..synthetic
+additional_tags:
+  application: research

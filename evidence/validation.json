@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "result": "passed",
+  "requests": {
+    "validated": 4,
+    "providers": [
+      "aws",
+      "azure",
+      "gcp",
+      "oci"
+    ],
+    "result": "passed"
+  },
+  "deterministic_generation": {
+    "runs_compared": 2,
+    "result": "passed"
+  },
+  "terraform": {
+    "format": "passed",
+    "validate": "full",
+    "version": "1.15.5"
+  },
+  "policy": {
+    "passing_scenario": "passed",
+    "intentional_rejection": "passed",
+    "opa_version": "1.17.0"
+  },
+  "secret_scan": {
+    "findings": 0,
+    "result": "passed",
+    "gitleaks_version": "8.30.1"
+  },
+  "manifest": {
+    "generation": "passed",
+    "immediate_verification": "passed"
+  }
+}
