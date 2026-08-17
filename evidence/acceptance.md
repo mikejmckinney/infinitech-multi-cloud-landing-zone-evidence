@@ -23,6 +23,12 @@ Machine-readable results are in `validation.json`,
 
 The canonical walkthrough records the following point-in-time evidence:
 
+The request-through-drift chapters remain current. The final customer-delivery
+chapter predates ADR-015 and shows the superseded public packaging model. Use
+the current repository, `PROVENANCE.json`, and
+`docs/customer-adaptation.md`—not that historical chapter—to evaluate the
+present publication and delivery boundary.
+
 | Scenario | Recorded result | Limitation |
 |---|---|---|
 | Intentional prevention | Unsafe plan rejected before cloud writes; corrected plan passed the same policy package | Demonstrates the retained scenario, not every possible unsafe change |

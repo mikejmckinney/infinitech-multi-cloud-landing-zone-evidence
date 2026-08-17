@@ -13,6 +13,10 @@ automation are part of Infinitech's private product and customer engagement.
 ## Start here: the 10–15 minute evidence path
 
 1. [Watch the 6:30 technical walkthrough](https://github.com/user-attachments/assets/e8e092a7-8a9e-4e68-ba37-0691ec61da14).
+   Its request-through-drift footage remains the canonical product
+   demonstration. Its final customer-delivery chapter records the superseded
+   public packaging model; this repository and the adaptation guide below are
+   the current publication boundary.
 2. Read the [architecture](docs/architecture.md) and
    [provider design decisions](docs/design-decisions.md).
 3. Compare the four synthetic [requests](examples/requests/) with their
@@ -20,7 +24,8 @@ automation are part of Infinitech's private product and customer engagement.
 4. Inspect the passing and intentionally rejected results under
    `examples/policy-results/` and the [acceptance evidence](evidence/acceptance.md).
 5. Review [customer adaptation](docs/customer-adaptation.md) to understand why
-   production delivery requires an Infinitech engagement.
+   production delivery requires an Infinitech engagement, then verify the
+   [current evidence release](https://github.com/mikejmckinney/infinitech-multi-cloud-landing-zone-evidence/releases/tag/v0.1.1).
 
 ## What the evidence demonstrates
 
@@ -42,7 +47,11 @@ automation are part of Infinitech's private product and customer engagement.
 - [Evidence dashboard](https://github.com/user-attachments/assets/4ca94d0a-0f1b-4e8a-9de9-58714651bd1e)
 - [Clean teardown](https://github.com/user-attachments/assets/79d9adc2-5407-4c25-b3f4-60e60f555163)
 - [Drift detection](https://github.com/user-attachments/assets/fdce9de2-d984-48c6-9f3b-e5355f7f9750)
-- [Customer-owned delivery](https://github.com/user-attachments/assets/d39abe34-356c-428e-91b0-d5b5293cec47)
+- [Customer-owned delivery boundary](docs/customer-adaptation.md)
+
+The former customer-delivery feature clip is not linked because it depicts the
+superseded operational-style public package. It remains in the private media
+record for provenance; it is not evidence of the current public boundary.
 
 ## Publication boundary
 
