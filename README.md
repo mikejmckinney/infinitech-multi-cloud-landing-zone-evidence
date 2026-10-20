@@ -12,7 +12,7 @@ automation are part of Infinitech's private product and customer engagement.
 
 ## Start here: the 10–15 minute evidence path
 
-1. [Watch the 6:30 technical walkthrough](https://github.com/user-attachments/assets/e8e092a7-8a9e-4e68-ba37-0691ec61da14).
+1. [Watch the 6:30 technical walkthrough](https://media.infinitechplatforms.com/imclz/v1/infinitech-technical-walkthrough-final.mp4).
    Its request-through-drift footage remains the canonical product
    demonstration. Its final customer-delivery chapter records the superseded
    public packaging model; this repository and the adaptation guide below are
@@ -25,7 +25,7 @@ automation are part of Infinitech's private product and customer engagement.
    `examples/policy-results/` and the [acceptance evidence](evidence/acceptance.md).
 5. Review [customer adaptation](docs/customer-adaptation.md) to understand why
    production delivery requires an Infinitech engagement, then verify the
-   [current evidence release](https://github.com/mikejmckinney/infinitech-multi-cloud-landing-zone-evidence/releases/tag/v0.1.1).
+   [current evidence release](https://github.com/mikejmckinney/infinitech-multi-cloud-landing-zone-evidence/releases/tag/v0.1.2).
 
 ## What the evidence demonstrates
 
@@ -40,13 +40,13 @@ automation are part of Infinitech's private product and customer engagement.
 
 ## Feature evidence
 
-- [Request to configuration](https://github.com/user-attachments/assets/06b260f9-733c-4664-bf6c-46cf70a718b3)
-- [Policy prevention](https://github.com/user-attachments/assets/4c1d1e0f-4157-4811-8589-d96236d72394)
-- [Protected execution](https://github.com/user-attachments/assets/d30f8560-8bbb-40bc-a472-1d48a4cb82eb)
-- [Four-cloud deployment](https://github.com/user-attachments/assets/fc7c8482-1c91-4b71-b4e6-b18a7a274177)
-- [Evidence dashboard](https://github.com/user-attachments/assets/4ca94d0a-0f1b-4e8a-9de9-58714651bd1e)
-- [Clean teardown](https://github.com/user-attachments/assets/79d9adc2-5407-4c25-b3f4-60e60f555163)
-- [Drift detection](https://github.com/user-attachments/assets/fdce9de2-d984-48c6-9f3b-e5355f7f9750)
+- [Request to configuration](https://media.infinitechplatforms.com/imclz/v1/request-vending.mp4)
+- [Policy prevention](https://media.infinitechplatforms.com/imclz/v1/policy-prevention.mp4)
+- [Protected execution](https://media.infinitechplatforms.com/imclz/v1/protected-execution.mp4)
+- [Four-cloud deployment](https://media.infinitechplatforms.com/imclz/v1/four-cloud-execute.mp4)
+- [Evidence dashboard](https://media.infinitechplatforms.com/imclz/v1/evidence-dashboard.mp4)
+- [Clean teardown](https://media.infinitechplatforms.com/imclz/v1/verified-teardown.mp4)
+- [Drift detection](https://media.infinitechplatforms.com/imclz/v1/drift-detection.mp4)
 - [Customer-owned delivery boundary](docs/customer-adaptation.md)
 
 The former customer-delivery feature clip is not linked because it depicts the
