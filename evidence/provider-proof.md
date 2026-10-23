@@ -16,4 +16,4 @@ presentation.
 
 The clips are sanitized derivatives of the retained demonstration. Matching
 names, regions, tags, and identifiers are explained in the full
-[technical walkthrough](https://media.infinitechplatforms.com/imclz/v1/infinitech-technical-walkthrough-final.mp4).
+[technical walkthrough](https://media.infinitechplatforms.com/imclz/v4/infinitech-technical-walkthrough.mp4).

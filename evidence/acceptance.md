@@ -40,5 +40,3 @@ present publication and delivery boundary.
 | Cost | Complete provider-settled cost is unavailable | No zero-cost or savings claim is made |
 
 The public artifact is evidence of implemented behavior and delivery discipline.
-It is not a certification, authorization, audit opinion, customer reference, or
-guarantee of regulatory outcome.

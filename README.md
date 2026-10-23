@@ -12,7 +12,7 @@ automation are part of Infinitech's private product and customer engagement.
 
 ## Start here: the 10–15 minute evidence path
 
-1. [Watch the 6:30 technical walkthrough](https://media.infinitechplatforms.com/imclz/v1/infinitech-technical-walkthrough-final.mp4).
+1. [Watch the 6:24 technical walkthrough](https://media.infinitechplatforms.com/imclz/v4/infinitech-technical-walkthrough.mp4).
    Its request-through-drift footage remains the canonical product
    demonstration. Its final customer-delivery chapter records the superseded
    public packaging model; this repository and the adaptation guide below are
