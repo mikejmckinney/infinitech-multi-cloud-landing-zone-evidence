@@ -25,7 +25,7 @@ automation are part of Infinitech's private product and customer engagement.
    `examples/policy-results/` and the [acceptance evidence](evidence/acceptance.md).
 5. Review [customer adaptation](docs/customer-adaptation.md) to understand why
    production delivery requires an Infinitech engagement, then verify the
-   [current evidence release](https://github.com/mikejmckinney/infinitech-multi-cloud-landing-zone-evidence/releases/tag/v0.1.2).
+   [current evidence release](https://github.com/mikejmckinney/infinitech-multi-cloud-landing-zone-evidence/releases/latest).
 
 ## What the evidence demonstrates
 
