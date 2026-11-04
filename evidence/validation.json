@@ -18,7 +18,7 @@
   "terraform": {
     "format": "passed",
     "validate": "full",
-    "version": "1.15.5"
+    "version": "1.17.0"
   },
   "policy": {
     "passing_scenario": "passed",

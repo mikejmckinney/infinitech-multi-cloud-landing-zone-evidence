@@ -5,7 +5,7 @@
 The evidence builder executes these scenarios against the private product
 revision recorded in `PROVENANCE.json`:
 
-1. Validate one synthetic request for each of AWS, Azure, Google Cloud, and OCI.
+1. Validate one sample request for each of AWS, Azure, Google Cloud, and OCI.
 2. Render the same inputs twice and require byte-identical generated roots.
 3. Check Terraform formatting for every published root.
 4. Evaluate a passing plan fixture with zero policy violations.
@@ -23,11 +23,10 @@ Machine-readable results are in `validation.json`,
 
 The canonical walkthrough records the following point-in-time evidence:
 
-The request-through-drift chapters remain current. The final customer-delivery
-chapter predates ADR-015 and shows the superseded public packaging model. Use
-the current repository, `PROVENANCE.json`, and
-`docs/customer-adaptation.md`—not that historical chapter—to evaluate the
-present publication and delivery boundary.
+The request-through-drift chapters are current. The last customer-delivery
+chapter predates ADR-015 and shows an older packaging model. Use this
+repository, `PROVENANCE.json`, and `docs/customer-adaptation.md` to evaluate
+how delivery works now.
 
 | Scenario | Recorded result | Limitation |
 |---|---|---|
@@ -37,6 +36,6 @@ present publication and delivery boundary.
 | Tag evidence | 26 selected resources showed 26/26 required business tags in the retained execute evidence | Not a universal compliance percentage |
 | Lifecycle | Five four-cloud workload cycles completed and disposable state returned to empty | Not an SLA or reliability percentage |
 | Drift | Nightly refresh-only planning produced evidence-routed follow-up | Remediation remains reviewed, not automatic |
-| Cost | Complete provider-settled cost is unavailable | No zero-cost or savings claim is made |
+| Cost | Provider billing for the five cycles totaled USD 0.60 across the four clouds | Demo cost only; not a customer estimate or savings claim |
 
 The public artifact is evidence of implemented behavior and delivery discipline.

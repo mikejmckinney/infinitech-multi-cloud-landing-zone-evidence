@@ -1,10 +1,11 @@
 # Infinitech Multi-Cloud Landing Zone — Reference Delivery & Evidence
 
-This repository is a public, synthetic evidence package for evaluating the
-Infinitech Multi-Cloud Landing Zone (IMCLZ) service. It shows what enters the
-governed delivery path, what customer-facing output is produced, how unsafe
-changes are rejected, and what lifecycle evidence was retained across AWS,
-Azure, Google Cloud, and Oracle Cloud Infrastructure.
+This repository is the public evidence package for the Infinitech
+Multi-Cloud Landing Zone (IMCLZ) service. The evidence comes from live runs in
+Infinitech's own AWS, Azure, Google Cloud, and Oracle Cloud Infrastructure
+accounts, using sample requests and disposable workloads. It shows what a
+request looks like, the Terraform it becomes, how policy rejects an unsafe
+change, and what each cloud retained after the run.
 
 It is deliberately **not** a deployable product distribution. Reusable modules,
 request-processing engines, policy source, cloud trust, and operational
@@ -13,13 +14,12 @@ automation are part of Infinitech's private product and customer engagement.
 ## Start here: the 10–15 minute evidence path
 
 1. [Watch the 6:24 technical walkthrough](https://media.infinitechplatforms.com/imclz/v4/infinitech-technical-walkthrough.mp4).
-   Its request-through-drift footage remains the canonical product
-   demonstration. Its final customer-delivery chapter records the superseded
-   public packaging model; this repository and the adaptation guide below are
-   the current publication boundary.
+   It covers a request from review through drift detection. Its last
+   chapter shows an older way of packaging customer delivery; this repository
+   and the adaptation guide below describe how delivery works now.
 2. Read the [architecture](docs/architecture.md) and
    [provider design decisions](docs/design-decisions.md).
-3. Compare the four synthetic [requests](examples/requests/) with their
+3. Compare the four sample [requests](examples/requests/) with their
    complete safe [generated roots](examples/generated/).
 4. Inspect the passing and intentionally rejected results under
    `examples/policy-results/` and the [acceptance evidence](evidence/acceptance.md).
@@ -31,7 +31,7 @@ automation are part of Infinitech's private product and customer engagement.
 
 | Capability | Public evidence |
 |---|---|
-| Request to provider configuration | Four synthetic requests and deterministic generated Terraform roots |
+| Request to provider configuration | Four sample requests and deterministic generated Terraform roots |
 | Prevention before cloud writes | Passing and intentional rejection policy-result snapshots |
 | Protected execution | Checksum-bound prepare/approval/execute evidence in the walkthrough |
 | Four-provider implementation | Sanitized provider-console proof and acceptance results |
@@ -77,9 +77,10 @@ every shipped file other than the checksum manifest itself. The static public
 workflow verifies evidence integrity only; it does not regenerate or deploy the
 product.
 
-Point-in-time findings, resource counts, and workflow outcomes are evidence of
-the recorded scenarios—not universal compliance, reliability, cost, or service
-level claims. Complete provider-settled cost remains unavailable.
+Findings, resource counts, and workflow outcomes describe the recorded runs
+on the dates shown. Provider billing for all five four-cloud cycles came to
+USD 0.60 (about USD 0.12 per cycle); that is the cost of the demo, not an
+estimate for a customer environment.
 
 ## Discuss an implementation
 

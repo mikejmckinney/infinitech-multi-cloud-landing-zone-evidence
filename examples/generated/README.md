@@ -1,6 +1,6 @@
 # Generated customer-facing roots
 
-These roots are generated from the four synthetic requests during evidence
+These roots are generated from the four sample requests during evidence
 production by the private IMCLZ request engine. They are published complete so
 a reviewer can inspect provider configuration, variables, tags, module inputs,
 and outputs.
